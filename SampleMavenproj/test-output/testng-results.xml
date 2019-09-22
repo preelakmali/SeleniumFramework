@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login to http://demo.guru99.com/test/login.htmlSuccesfuly]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Usernameguru99@email.com ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Password ]]>
+    </line>
+    <line>
+      <![CDATA[Login is completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48702" started-at="2019-09-20T12:30:16Z" finished-at="2019-09-20T12:31:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48702" started-at="2019-09-20T12:30:16Z" finished-at="2019-09-20T12:31:05Z">
+      <class name="main.java.com.test.TS_LoginGuru">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:main.java.com.test.TS_LoginGuru@3ffc5af1]" name="beforeMethod" is-config="true" duration-ms="11908" started-at="2019-09-20T12:30:17Z" finished-at="2019-09-20T12:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tc_loginToGurru99(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.java.com.test.TS_LoginGuru@3ffc5af1]" name="tc_loginToGurru99" duration-ms="34257" started-at="2019-09-20T12:30:29Z" data-provider="tc_loginToGurru99" finished-at="2019-09-20T12:31:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tc_loginToGurru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demo.guru99.com/test/login.html]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[guru99@email.com ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lNf9^Oti7^2h]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login to http://demo.guru99.com/test/login.htmlSuccesfuly]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Usernameguru99@email.com ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Password ]]>
+            </line>
+            <line>
+              <![CDATA[Login is completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_loginToGurru99 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:main.java.com.test.TS_LoginGuru@3ffc5af1]" name="afterMethod" is-config="true" duration-ms="1516" started-at="2019-09-20T12:31:03Z" finished-at="2019-09-20T12:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- main.java.com.test.TS_LoginGuru -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
